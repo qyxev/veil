@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <group
+        android:pivotX="256"
+        android:pivotY="256"
+        android:scaleX="0.68"
+        android:scaleY="0.68">
+
+        <!-- Glassmorphic Viewfinder Frame -->
+        <path
+            android:pathData="M160,96 L352,96 A64,64 0 0,1 416,160 L416,352 A64,64 0 0,1 352,416 L160,416 A64,64 0 0,1 96,352 L96,160 A64,64 0 0,1 160,96 Z"
+            android:strokeWidth="8"
+            android:strokeColor="#80FFFFFF"
+            android:fillColor="#1AFFFFFF" />
+
+        <!-- Viewfinder Corners -->
+        <path
+            android:pathData="M 144,172 L 144,148 C 144,145.8 145.8,144 148,144 L 172,144"
+            android:strokeWidth="8"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M 340,144 L 364,144 C 366.2,144 368,145.8 368,148 L 368,172"
+            android:strokeWidth="8"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M 144,340 L 144,364 C 144,366.2 145.8,368 148,368 L 172,368"
+            android:strokeWidth="8"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M 368,340 L 368,364 C 368,366.2 366.2,368 364,368 L 340,368"
+            android:strokeWidth="8"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Bold Geometric "V" Mark -->
+        <path
+            android:pathData="M 180,192 L 256,344 L 332,192 L 292,192 L 256,268 L 220,192 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="256"
+                    android:startY="192"
+                    android:endX="256"
+                    android:endY="344"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFFFFFFF" />
+                    <item android:offset="1.0" android:color="#FFB0B0B0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- OCR Scan Beam -->
+        <path
+            android:pathData="M 164,256 L 348,256"
+            android:strokeWidth="4"
+            android:strokeColor="#66FFFFFF" />
+    </group>
+</vector>

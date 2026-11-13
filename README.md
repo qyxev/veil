@@ -3,7 +3,7 @@
 # Veil
 
 **Zero-Latency On-Screen Translation Overlay for Android**  
-*Read anything on your screen—games, manga, social feeds, and apps—without switching contexts.*
+*Read anything on your screen :games, manga, social feeds, and apps : without switching contexts.*
 
 <br>
 
